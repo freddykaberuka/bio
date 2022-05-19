@@ -10,12 +10,12 @@ html{
 nav{
   background-color: rgba(251, 246, 246, 0.84);
   height: 100vh;
-  width: 33%;
-padding: 4rem 3%;
+padding: 4rem 5%;
 }
 nav h1{
   font-family: 'Satisfy', cursive;
   font-size: 4rem;
+  padding-left: 4rem;
 }
 nav h1 span{
   font-family: Raleway,sans-serif;
@@ -26,13 +26,35 @@ nav h1 span{
 nav ul{
   list-style: none;
   font-size: 2rem;
+ padding-left: 4rem;
 }
 
 nav ul li{
-  padding: 1rem 0;
+  padding-top: 2rem;
 }
 
 nav ul li a{
  color: grey;
  text-decoration: none;
+}
+section{
+  background-color: honeydew;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+.home__header{
+  font-family: Satisfy,cursive;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #eb268e;
+}
+.home__image{
+  width: 10rem;
+}
+.home__image img{
+  width: 10rem;
 }
