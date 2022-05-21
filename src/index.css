@@ -1,13 +1,65 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 65.6%;
+}
+nav{
+  background-color: rgba(251, 246, 246, 0.84);
+  height: 100vh;
+padding: 4rem 5%;
+}
+nav h1{
+  font-family: 'Satisfy', cursive;
+  font-size: 4rem;
+  padding-left: 4rem;
+}
+nav h1 span{
+  font-family: Raleway,sans-serif;
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+nav ul{
+  list-style: none;
+  font-size: 2rem;
+ padding-left: 4rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav ul li{
+  padding-top: 2rem;
+}
+
+nav ul li a{
+ color: grey;
+ text-decoration: none;
+}
+section{
+  background-color: honeydew;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+.home__header{
+  margin: 5rem 0;
+  font-family: Satisfy,cursive;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 5rem;
+  color: #eb268e;
+}
+.home__image{
+  width: 30rem;
+}
+.home__image img{
+  width: 100%;
+}
+.home__base{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
