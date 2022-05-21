@@ -9,8 +9,8 @@ html{
 }
 nav{
   background-color: rgba(251, 246, 246, 0.84);
-  height: 100vh;
-padding: 4rem 5%;
+  padding: 4rem 5%;
+  height: 100%;
 }
 nav h1{
   font-family: 'Satisfy', cursive;
@@ -96,6 +96,8 @@ section{
   section{
     display: grid;
     grid-template-columns: auto;
+    height: 150%;
+    padding-bottom: 4rem;
   }
   .mobile-nav{
     display: flex;
@@ -104,11 +106,26 @@ section{
     display: none;
   }
   .mobile-nav{
-    display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
- align-items: center;
-padding: 2rem 1.5rem 0 1.5rem;
+  align-items: center;
+  padding: 2rem 1.5rem 0 1.5rem;
+  }
+  .home__header{
+    margin: 3rem 0;
+  }
+  
+}
+@media only screen and (max-width:332px){
+  .home__image{
+  width: 80%;
+  }
+  .home__social ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   
 }
