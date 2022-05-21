@@ -7,14 +7,16 @@ import medium from '../img/medium.svg';
 import menu from '../img/menu.svg';
 
 import SideBar from "./sideBar";
+import Popup from "./Popup";
 const Home = () => {
 
     return (
         <section>
+            <div> <Popup /> </div>
             <div className="sidebar"><SideBar /></div>
-            <div className="mobile-nav"> 
-            <h1>Debola <span>Adebanjo</span></h1>
-            <img src={menu} alt="menu" />
+            <div className="mobile-nav">
+                <h1>Debola <span>Adebanjo</span></h1>
+                <img src={menu} alt="menu" />
             </div>
 
             <div className="home__base">
