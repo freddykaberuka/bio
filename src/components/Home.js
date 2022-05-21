@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
         <section>
-            <div> <Popup /> </div>
+            <div className="none"> <Popup /> </div>
             <div className="sidebar"><SideBar /></div>
             <div className="mobile-nav">
                 <h1>Debola <span>Adebanjo</span></h1>
