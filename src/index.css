@@ -127,21 +127,38 @@ section{
     margin: 3rem 0;
   }
   .mobile__popup{
+    font-size: 2rem;
     display: flex;
     position: absolute;
     background-color: rgb(248, 251, 251);
-    height: 100vh;
-    width: 100vw;
+    height: 150vh;
+    width: 150vw;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+  padding: 2rem 3%;
+  }
+  .mobile__popup ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0 10%;
+  }
+  .mobile__popup ul li{
+    padding-bottom: 2rem;
+  }
+  .mobile__popup ul li a{
+    text-decoration: none;
+    color: black;
   }
   .mobile__close{
-    margin: 2rem 1.5rem;
+    padding: 8rem 3.5rem;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     height: 4rem;
-    width: 100vw;
+    width: 100%;
     align-items: center;
-    padding: 1.5rem;
   }
 }
 @media only screen and (max-width:332px){
