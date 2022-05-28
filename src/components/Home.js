@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback, useState } from "react";
 import twitter from "../img/twitter.svg";
 import facebook from "../img/facebook.svg";
 import linkedin from "../img/linkedin.svg";
@@ -9,14 +9,15 @@ import menu from '../img/menu.svg';
 import SideBar from "./sideBar";
 import Popup from "./Popup";
 const Home = () => {
+    const [onPopup, setOnPopup] = useState(false);
 
     return (
         <section>
-            <div className="none"> <Popup /> </div>
+            <div className="none"> <Popup triger={onPopup} setTrigger={setOnPopup} /> </div>
             <div className="sidebar"><SideBar /></div>
             <div className="mobile-nav">
                 <h1>Debola <span>Adebanjo</span></h1>
-                <img src={menu} alt="menu" />
+                <img src={menu} onClick={() => setOnPopup(true)} alt="menu" />
             </div>
 
             <div className="home__base">

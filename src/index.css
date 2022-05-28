@@ -106,6 +106,9 @@ section{
     height: 150%;
     padding-bottom: 4rem;
   }
+  .hide-popup {
+    display: none !important;
+  }
   .none{
     position: absolute;
     display: block;
@@ -131,8 +134,8 @@ section{
     display: flex;
     position: absolute;
     background-color: rgb(248, 251, 251);
-    height: 150vh;
-    width: 150vw;
+    width: 100vw;
+    height: 100vh;
     right: 0;
     left: 0;
     flex-direction: column;
