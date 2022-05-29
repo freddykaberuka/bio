@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useState } from "react";
 import twitter from "../img/twitter.svg";
 import facebook from "../img/facebook.svg";
 import linkedin from "../img/linkedin.svg";

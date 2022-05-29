@@ -74,6 +74,11 @@ section{
   line-height: 5rem;
   color: #eb268e;
 }
+
+.active{
+  color: #eb268e;
+}
+
 .home__image{
   width: 30rem;
 }
