@@ -1,18 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import WorkNav from "./sidebar/workNav";
 const SideBar = () => {
-
+    const [work, setwork] = useState(false);
+    const toggleWork = () => {
+        setwork(prev => !prev)
+    }
     return (
         <nav>
             <h1>Debola <span>Adebanjo</span></h1>
             <ul>
-                <li><a href="#g">Home</a></li>
-                <li><a href="#g">Works</a></li>
-                <li><a href="#g">Projects & collabolations</a></li>
-                <li><a href="#g">Skills & recommendations</a></li>
-                <li><a href="#g">Press and awards</a></li>
-                <li><a href="#g">About me</a></li>
-                <li><a href="#g">Gallery</a></li>
-                <li><a href="#g">Let's work</a></li>
+                <li><NavLink to='/' >Home</NavLink></li>
+                <li onClick={toggleWork}>Works</li>
+                <WorkNav isWork={work} />
+                <li><NavLink to='/project'>Projects & collabolations</NavLink></li>
+                <li><NavLink to='/skills'>Skills & recommendations</NavLink></li>
+                <li><NavLink to='/award'>Press and awards</NavLink></li>
+                <li><NavLink to='/about'>About me</NavLink></li>
+                <li><NavLink to='/Gallery'>Gallery</NavLink></li>
+                <li><NavLink to='/business'>Let's work</NavLink></li>
             </ul>
         </nav>
     )
