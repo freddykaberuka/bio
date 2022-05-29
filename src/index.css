@@ -97,7 +97,10 @@ section{
 .active{
   color: #eb268e;
 }
-
+.work__footer{
+  margin: 4rem 0;
+ border-top: 2px solid gray;
+}
 .home__image{
   width: 30rem;
 }
@@ -219,9 +222,3 @@ section{
 
 }
 
-.silver{
-  background-color: silver;
-}
-.chockolate{
-  background-color: chocolate;
-}

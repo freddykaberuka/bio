@@ -43,7 +43,7 @@ const WorkRadio = () => {
     ];
 
     return (
-        <section>
+        <section className="work_section">
             <div className="none"> <Popup triger={onPopup} setTrigger={setOnPopup} /> </div>
             <div className="sidebar"><SideBar /></div>
             <div className="mobile-nav">
@@ -68,10 +68,9 @@ const WorkRadio = () => {
                     </div>)
                     )}
 
-
-
                 </div>
-                {/* <div className="home__social">
+                <div className="work__footer">
+                <div className="home__social">
                     <ul>
                         <li><a href="#titer"><img src={linkedin} alt="Linkedin" ></img></a></li>
                         <li><a href="#titer"><img src={twitter} alt="twitter" ></img></a></li>
@@ -79,7 +78,8 @@ const WorkRadio = () => {
                         <li><a href="#titer"><img src={instagram} alt="instagram" ></img></a></li>
                         <li><a href="#titer"><img src={medium} alt="instagram" ></img></a></li>
                     </ul>
-                </div> */}
+                </div>
+                </div>
             </div>
         </section>
     )
