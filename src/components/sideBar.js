@@ -10,8 +10,8 @@ const SideBar = () => {
         <nav>
             <h1>Debola <span>Adebanjo</span></h1>
             <ul>
-                <li><NavLink to='/home' >Home</NavLink></li>
-                <li><NavLink to='/work' onClick={toggleWork}>Works</NavLink></li>
+                <li><NavLink to='/' >Home</NavLink></li>
+                <li onClick={toggleWork}>Works</li>
                 <WorkNav isWork={work} />
                 <li><NavLink to='/project'>Projects & collabolations</NavLink></li>
                 <li><NavLink to='/skills'>Skills & recommendations</NavLink></li>
