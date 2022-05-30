@@ -18,7 +18,7 @@ const SideBar = () => {
                 <li><NavLink to='/award'>Press and awards</NavLink></li>
                 <li><NavLink to='/about'>About me</NavLink></li>
                 <li><NavLink to='/Gallery'>Gallery</NavLink></li>
-                <li><NavLink to='/business'>Let's work</NavLink></li>
+                <li><NavLink to='/contact'>Let's work</NavLink></li>
             </ul>
         </nav>
     )

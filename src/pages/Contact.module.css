@@ -1,0 +1,72 @@
+.contact__section{
+    box-shadow: 0 5px 20px 0 rgb(11 7 110 / 4%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 80%;
+    max-width: 700px;
+    padding: 4rem 2rem;
+    line-height: 3rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    width: 100%;
+}
+form label{
+    align-self: flex-start;
+    padding-top: 2rem;
+}
+input{
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 12px;
+    line-height: 1.3333333;
+    display: block;
+    width: 100%;
+    margin: .2rem;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+input:focus{
+    outline: none;
+}
+textarea{
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+    border: 1px solid #ccc;
+    width: 100%;
+    min-height: 150px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 1.5rem;
+    border-radius: 2px;
+    margin-bottom: 3rem;
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+    align-self: center;
+    outline: none;
+    font: inherit;
+    background: #eb268e;
+    padding: 10px 14px;
+    font-size: 1.6rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    width: 250px;
+}
