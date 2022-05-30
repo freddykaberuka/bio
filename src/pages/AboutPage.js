@@ -29,7 +29,7 @@ const AboutPage = () => {
                             <img src="https://debola.s3.eu-west-2.amazonaws.com/Image004_8c2e2dcda8.jpg" alt="debola" />
                         </div>
                         <div className={classes.about__resume}>
-                            <a href="http://google.com">Resume</a>
+                            <a href="http://google.com">Checkout my resume</a>
                         </div>
                     </div>
                     <div className={classes.about__text}>
@@ -50,14 +50,16 @@ const AboutPage = () => {
                             With these, I look forward to connecting and working with you to create great things.</p>
                     </div>
                 </div>
-                <div className="home__social">
-                    <ul>
-                        <li><a href="#titer"><img src={linkedin} alt="Linkedin" ></img></a></li>
-                        <li><a href="#titer"><img src={twitter} alt="twitter" ></img></a></li>
-                        <li><a href="#titer"><img src={facebook} alt="facebook" ></img></a></li>
-                        <li><a href="#titer"><img src={instagram} alt="instagram" ></img></a></li>
-                        <li><a href="#titer"><img src={medium} alt="instagram" ></img></a></li>
-                    </ul>
+                <div className="work__footer">
+                    <div className="home__social">
+                        <ul>
+                            <li><a href="#titer"><img src={linkedin} alt="Linkedin" ></img></a></li>
+                            <li><a href="#titer"><img src={twitter} alt="twitter" ></img></a></li>
+                            <li><a href="#titer"><img src={facebook} alt="facebook" ></img></a></li>
+                            <li><a href="#titer"><img src={instagram} alt="instagram" ></img></a></li>
+                            <li><a href="#titer"><img src={medium} alt="instagram" ></img></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
