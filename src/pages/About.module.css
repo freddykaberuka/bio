@@ -51,4 +51,8 @@
     display: grid;
     grid-template-columns: auto;
     }
+    .about__image{
+        display: grid;
+        grid-template-rows: 4fr 1fr;
+    }
   }
