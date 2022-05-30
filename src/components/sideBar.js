@@ -11,7 +11,7 @@ const SideBar = () => {
             <h1>Debola <span>Adebanjo</span></h1>
             <ul>
                 <li><NavLink to='/' >Home</NavLink></li>
-                <li onClick={toggleWork}>Works</li>
+                <li onClick={toggleWork} className="work_li">Works</li>
                 <WorkNav isWork={work} />
                 <li><NavLink to='/project'>Projects & collabolations</NavLink></li>
                 <li><NavLink to='/skills'>Skills & recommendations</NavLink></li>
