@@ -52,7 +52,7 @@ const Project = () => {
             </div>
 
             <div className="home__base">
-                <div className="home__header"><h1>Assistant TV presenter</h1></div>
+                <div className="home__header"><h1>Projects and collabolation</h1></div>
                 <div className="work__grid">
 
 

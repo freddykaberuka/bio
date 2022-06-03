@@ -5,7 +5,9 @@ import Recomendation from './components/skills/Recomendation';
 import Skills from './components/skills/Skills';
 import WorkRadio from './components/work/WorkRadio';
 import AboutPage from './pages/AboutPage';
+import Award from './pages/Award';
 import Contact from './pages/Cotact';
+import Gallery from './pages/Garelly';
 
 function App() {
   return (
@@ -18,6 +20,11 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/recomendation" element={<Recomendation />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/award" element={<Award />} />
+
+
+
 
 
 
