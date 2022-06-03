@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import WorkNav from "./sidebar/workNav";
-import skillsNav from "./skills/skillsNava";
 import SkillsNav from "./skills/skillsNava";
 const SideBar = () => {
     const [work, setwork] = useState(false);
