@@ -5,7 +5,6 @@ import linkedin from "../img/linkedin.svg";
 import instagram from "../img/instagram.svg";
 import medium from '../img/medium.svg';
 import menu from '../img/menu.svg';
-import classes from './About.module.css';
 import style from './Award.module.css';
 
 
