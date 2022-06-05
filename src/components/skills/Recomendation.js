@@ -21,7 +21,7 @@ const Recomendation = (props) => {
             </div>
 
             <div className="home__base">
-                <div className="home__header"><h1>Recomendation</h1></div>
+                <div className="home__header"><h1>Recommendations</h1></div>
                 <div className="work__grid">
 
                     <h1>Recomendation goes here</h1>

@@ -1,0 +1,30 @@
+.award__section {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.award__title {
+    padding-bottom: 1rem;
+    font-weight: 300;
+
+}
+
+.award__ul {
+    padding-left: 5rem;
+}
+
+.award__list {
+    padding-top: 1rem;
+}
+
+.award__list a {
+    color: black;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.line {
+    margin: 3rem 0;
+}
