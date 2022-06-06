@@ -232,6 +232,9 @@ section {
     left: 0;
     flex-direction: column;
     padding: 2rem 3%;
+    z-index: 9999;
+    overflow: hidden;
+    position: fixed;
   }
 
   .mobile__popup ul {
