@@ -192,6 +192,11 @@ section {
     padding-bottom: 4rem;
   }
 
+  .work__grid {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
   .hide-popup {
     display: none !important;
   }
@@ -261,6 +266,13 @@ section {
     height: 4rem;
     width: 100%;
     align-items: center;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .work__grid {
+    display: grid;
+    grid-template-columns: auto;
   }
 }
 
