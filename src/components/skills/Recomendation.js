@@ -5,6 +5,7 @@ import linkedin from "../../img/linkedin.svg";
 import instagram from "../../img/instagram.svg";
 import medium from '../../img/medium.svg';
 import menu from '../../img/menu.svg';
+import style from './Recomendation.module.css';
 
 import SideBar from "../sideBar";
 import Popup from "../Popup";
@@ -22,10 +23,26 @@ const Recomendation = (props) => {
 
             <div className="home__base">
                 <div className="home__header"><h1>Recommendations</h1></div>
-                <div className="work__grid">
+                <div className={style.container}>
+                    <ul className={style.recommendations_list}>
+                        <li className={style.recommendations_item} ><div className={style.recommendations_text}>
+                            <p>I could go on about how Debola is a consulate professional with a keen eye for details, and a unique angle to every story, but in a world where competence scarcely
+                                meets character I feel it is necessary to point out that Debola is an embodiment of both. Her empathy is never understated. Neither in her storytelling nor in her day-to-day
+                                relations. She is professional yet kind, thorough yet compassionate. The football ecosystem is a better place because she is in it. Working with her is always exciting and I
+                                have no doubt that she will be causing major shifts in the ecosystem in no time at all.
+                            </p>
+                        </div>
+                            <div className={style.recommendations_author}> - Ayoola Kelechi, Associate editorial lead, Gecko Five</div>
+                        </li>
 
-                    <h1>Recomendation goes here</h1>
-
+                        <li className={style.recommendations_item} ><div className={style.recommendations_text}>
+                            <p>I could go on about how Debola is a consulate professional with a keen eye for details, and a unique angle to every story, but in a world where competence scarcely
+                                have no doubt that she will be causing major shifts in the ecosystem in no time at all.
+                            </p>
+                        </div>
+                            <div className={style.recommendations_author}> - Ayoola Kelechi, Associate editorial lead, Gecko Five</div>
+                        </li>
+                    </ul>
 
                 </div>
                 <div className="work__footer">

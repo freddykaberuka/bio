@@ -1,0 +1,47 @@
+.recommendations_list {
+    display: block;
+}
+
+.recommendations_item {
+    max-width: 700px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
+    margin: 0 auto 40px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    list-style: none;
+
+}
+
+.recommendations_text {
+    color: #222;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.recommendations_text::before {
+    content: "“";
+    color: #eb268e;
+    position: absolute;
+    font-size: 80px;
+    top: 15px;
+    left: -15px;
+}
+
+.recommendations_text::after {
+    content: "”";
+    color: #eb268e;
+    position: absolute;
+    font-size: 80px;
+    bottom: -15px;
+    right: -15px;
+}
+
+.recommendations_author {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.75rem;
+}
