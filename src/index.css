@@ -118,6 +118,11 @@ section {
   color: #eb268e;
 }
 
+.navlink {
+  text-decoration: none;
+  color: gray;
+}
+
 .work__footer {
   margin: 4rem 0;
   border-top: 2px solid gray;
@@ -240,7 +245,7 @@ section {
     padding-bottom: 2rem;
   }
 
-  .mobile__popup ul li a {
+  .mobile__popup ul li NavLink {
     text-decoration: none;
     color: black;
   }
