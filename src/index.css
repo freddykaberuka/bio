@@ -220,6 +220,7 @@ section {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 1.5rem 0 1.5rem;
+    background-color: hsla(0, 0%, 98.8%, .67);
   }
 
   .home__header {
