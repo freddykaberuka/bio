@@ -74,8 +74,6 @@ nav ul li {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
   padding: 1rem 1rem;
-
-
 }
 
 .container {
@@ -98,7 +96,7 @@ nav ul li a {
 section {
   background-color: honeydew;
   display: grid;
-  grid-template-columns: 30% auto;
+  grid-template-columns: 20% auto;
 }
 
 .home__header {
