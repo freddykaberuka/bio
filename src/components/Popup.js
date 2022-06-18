@@ -21,20 +21,13 @@ const Popup = (props) => {
             <img src={close} onClick={() => props.setTrigger(false)} alt="close icon" />
         </div>
         <ul>
-            <li><NavLink  className='navlink' to='/' >Home</NavLink></li>
-            <li onClick={toggleWork} className="work_li">Works</li>
-            <WorkNav  className='navlink' isWork={work} />
-            <li></li>
-            <li><NavLink className='navlink'  to='/project'>Projects & collabolations</NavLink></li>
-            <li onClick={toggleSills} className="work_li">Skills & recommendations</li>
-            <SkillsNav className='navlink'  isSkills={skillSection} />
-            <li></li>
-
-            <li><NavLink className='navlink'  to='/award'>Press and awards</NavLink></li>
-            <li><NavLink className='navlink'  to='/about'>About me</NavLink></li>
-            <li><NavLink className='navlink'  to='/Gallery'>Gallery</NavLink></li>
-            <li><NavLink className='navlink'  to='/contact'>Let's work</NavLink></li>
+            <li><NavLink to='/' >Home</NavLink></li>
+            <li><NavLink to='/radio'>Latest</NavLink></li>
+            <li><NavLink to='/Gallery'>Gallery</NavLink></li>
+            <li><NavLink to='/contact'>Contact</NavLink></li>
+            <li><NavLink to='/project'>Upcoming</NavLink></li>
+            <li><NavLink to='/about'>About me</NavLink></li>
         </ul>
-    </div>) : "";
+    </div >) : "";
 }
 export default Popup;

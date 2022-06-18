@@ -9,6 +9,7 @@ import classes from './About.module.css'
 
 import SideBar from "../components/sideBar";
 import Popup from "../components/Popup";
+import { Link } from "react-router-dom";
 const AboutPage = () => {
     const [onPopup, setOnPopup] = useState(false);
 
@@ -29,7 +30,12 @@ const AboutPage = () => {
                             <img src="https://debola.s3.eu-west-2.amazonaws.com/Image004_8c2e2dcda8.jpg" alt="debola" />
                         </div>
                         <div className={classes.about__resume}>
-                            <a href="http://google.com">Checkout my resume</a>
+                            <Link to='http://google.com'>Skills</Link>
+                            <Link to='http://google.com'>Recommendation</Link>
+                            <Link to='http://google.com'>Press and award</Link>
+                            <Link to='http://google.com'>Project & collabollattion</Link>
+                            <Link to='http://google.com'>Checkout my resume</Link>
+
                         </div>
                     </div>
                     <div className={classes.about__text}>
