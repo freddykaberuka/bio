@@ -44,14 +44,16 @@
 .about__resume {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 4rem
+    justify-content: center;
+    padding-top: 4rem;
 }
 
-.about__resume a {
+.about__resume>* {
     color: #eb268e;
     font-size: 2rem;
     font-weight: 600;
+    padding: 2% 0;
+
 }
 
 @media only screen and (max-width:900px) {

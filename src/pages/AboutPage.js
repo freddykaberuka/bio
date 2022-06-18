@@ -30,10 +30,10 @@ const AboutPage = () => {
                             <img src="https://debola.s3.eu-west-2.amazonaws.com/Image004_8c2e2dcda8.jpg" alt="debola" />
                         </div>
                         <div className={classes.about__resume}>
-                            <Link to='http://google.com'>Skills</Link>
-                            <Link to='http://google.com'>Recommendation</Link>
-                            <Link to='http://google.com'>Press and award</Link>
-                            <Link to='http://google.com'>Project & collabollattion</Link>
+                            <Link to='/skills'>Skills</Link>
+                            <Link to='/recomendation'>Recommendation</Link>
+                            <Link to='/award'>Press and award</Link>
+                            <Link to='/project'>Project & collabollattion</Link>
                             <Link to='http://google.com'>Checkout my resume</Link>
 
                         </div>
